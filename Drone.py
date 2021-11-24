@@ -3,10 +3,6 @@ import socket
 import struct
 import sys
 import os
-import pyfiglet
-
-ascii_banner = pyfiglet.figlet_format("Drone.py")
-print(ascii_banner)
 print("Place Device Under Drone-")
 import time
 time.sleep(3)
@@ -15,8 +11,6 @@ print("Closing injector file")
 print("DONE!")
 time.sleep(10)
 os.system ('clear')
-ascii_banner = pyfiglet.figlet_format("8===D")
-print(ascii_banner)
 print("paid key")
 k = input("")
 if k == '1980':
